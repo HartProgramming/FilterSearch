@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="filtersearch.css">
+</head>
+<body>
+    <div id="filterDiv">
+    <nav>
+        <button id="all">ALL</button>
+        <button id="cakes">CAKES</button>
+        <button id="cupcakes">CUPCAKES</button>
+        <button id="sweets">SWEETS</button>
+        <button id="doughnuts">DOUGHNUTS</button>
+    </nav>
+    </div>
+    <div id="searchDiv">
+        <button id="searchBtn"><img width=20px height=20px src="https://img.search.brave.com/CRShEClBU8Zxnu3zcqextEY5JdQRA2QHC7SBaqzKnx0/rs:fit:958:981:1/g:ce/aHR0cDovL2Nkbi5v/bmxpbmV3ZWJmb250/cy5jb20vc3ZnL2lt/Z181Mjc0LnBuZw" alt="search button image"></button>
+        <input value="blank" id="searchBar" height=20px type="text" placeholder="item">
+    </div>   
+    <section>
+        <div data-desert="cupcake" class="desertDiv cupcake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/MajRnyrswScOIgnIKuY24vvRGhLTHYIwl4PlDJc59Y4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/Z2xvcmlvdXN0cmVh/dHMuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDExLzA3L3Bl/cmZlY3QtdmFuaWxs/YS1jdXBjYWtlcy1z/cXVhcmUuanBn" alt="">
+            <div>
+                <span class="name">Cupcake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="cake" class="desertDiv cake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/ffxZUqP5mHLV-GNUT9ZQgMK0gWH9AscMdR9OVOpKegQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly90aHVu/ZGVyc2Jha2VyeS5p/ZS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8xMC8xMC1DaG9j/b2xhdGUtQnV0dGVy/Y3JlYW0uanBn" alt="">
+            <div>
+                <span class="name">Cake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="cupcake" class="desertDiv cupcake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/DgAFn7uj69YeETOV-1lQv77dHXziwSkz93RWgHY6a1o/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/amFuZXNwYXRpc3Nl/cmllLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxNi8wNy9J/TUdfMTE0OC5qcGc" alt="">
+            <div>
+                <span class="name">Cupcake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="cake" class="desertDiv cake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/Ra9RRSVQGBhL2jrUnNkzvfGj3HrLqmTsnKiCwzfxBCw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly90aHVu/ZGVyc2Jha2VyeS5p/ZS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wMS9vcmVvLWRy/aXAtY2FrZS5qcGc" alt="">
+            <div>
+                <span class="name">Cake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="sweets" class="desertDiv sweets">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/j2nd4TD_MxMxIAZSTm26UxP1C_N8_fJpQnncpxLynJw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9waW5r/bGVtb250cmVlLmlu/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE2/LzAxL3JvY2stY2Fu/ZHktYm9pbGVkLXN3/ZWV0cy5qcGc" alt="">
+            <div>
+                <span class="name">Sweets</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="sweets" class="desertDiv sweets">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/_j_B6MwPIYPyZhkc80osFYUSRpCmkLPuzJ9tgBy1jmU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzE4NTQ2NzMzL3Iv/aWwvYjkyNWM4LzI0/MjA3MTc0MzAvaWxf/ZnVsbHhmdWxsLjI0/MjA3MTc0MzBfNnNt/OS5qcGc" alt="">
+            <div>
+                <span class="name">Sweets</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="doughnuts" class="desertDiv doughnuts">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/Klnsx-fI9n1A1zx6LIRNlw2dFCCIuNiNcQYKBEEb2RE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2ltYWdlcy5lY3dp/ZC5jb20vaW1hZ2Vz/LzI2NDg4MTU0LzEz/NzAyMjk0MzUuanBn" alt="">
+            <div>
+                <span class="name">Doughnuts</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="cake" class="desertDiv cake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/BAR1e7U95VzvDq1Dv7ILkxFG5mU4sGrQga0vgbypsbg/rs:fit:1080:1105:1/g:ce/aHR0cHM6Ly9uZWN0/YXJjb25mZWN0aW9u/YXJ5LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8xMi9z/bjEzLTEuanBn" alt="">
+            <div>
+                <span class="name">Cake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="cupcake" class="desertDiv cupcake">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/dcjKgg4Lz93cayjbtpHCoaaYVDnUpxRxHGun1cpkV5I/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/dGhlY3VydnljYXJy/b3QuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDExLzA4L0lN/R18zOTE1LmpwZw" alt="">
+            <div>
+                <span class="name">Cupcake</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="doughnuts" class="desertDiv doughnuts">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/8JaSs2qAxgM83hrfFGteMRhp-PSHkY7BN8YA687JIGQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9uZXdz/Y2RuLndlaWdlbGJy/b2FkY2FzdGluZy5j/b20velFXN1YtMTU1/MDAwNTg1Ny1lbWJl/ZC1Eb3VnaG51dHMu/anBn" alt="">
+            <div>
+                <span class="name">Doughnuts</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="doughnuts" class="desertDiv doughnuts">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/Wk8Fea1cdMulKIst7mLs6sHOmfBxslKDzbokjxlJS8k/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/cGF0ZXNtaXRoLmNv/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE2/LzA2L1NpbXBzb25z/RG91Z2hudXRzOC5q/cGc" alt="">
+            <div>
+                <span class="name">Doughnuts</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+        <div data-desert="sweets" class="desertDiv sweets">
+            <img width=200px height=200px class="desertImage" src="https://img.search.brave.com/fAu-8vuF_gP8F5Yx4pkNEWd0GEBwHLhyMSmU9Uon1xI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI2ODE3NjUzL3Iv/aWwvOGMzZTBmLzMx/Mjc1MDcyMDUvaWxf/ZnVsbHhmdWxsLjMx/Mjc1MDcyMDVfZzhv/ai5qcGc" alt="">
+            <div>
+                <span class="name">Sweets</span>
+                <span class="price">$5</span>
+            </div>
+        </div>
+    </section>
+    
+    <script src="filtersearch.js"></script>
+</body>
+</html>
